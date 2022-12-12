@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "GT Walsheim Pro";
+}
+
+center {
+  background-color: white;
+}
+
+table {
+  width: 100%;
+  border-spacing: 0;
+}
+
+p {
+  color: white;
+}
+
+#contenedor1, #contenedor2, #contenedor3, #contenedor4 {
+  width: 80%;
+}
+
+#contenedor5 {
+  width: 100%;
+}
+
+ul {
+  list-style-position: inside;
+}
+ul li {
+  color: white;
+}
+
+#seccion1 tr {
+  width: 100%;
+}
+#seccion1 tr td {
+  width: 100%;
+}
+#seccion1 tr td h1 {
+  color: #3AE67A;
+  max-width: 100%;
+}
+#seccion1 tr td ul {
+  width: 100%;
+  margin-top: 1em;
+}
+#seccion1 tr td ul li {
+  font-size: 0.8rem;
+}
+
+#seccion2 {
+  width: 100%;
+}
+#seccion2 tr {
+  width: 100%;
+}
+#seccion2 tr td {
+  width: 100%;
+}
+
+#seccion3_1 {
+  width: 100%;
+}
+#seccion3_1 tr {
+  width: 100%;
+}
+#seccion3_1 tr td {
+  width: 100%;
+}
+
+/* #seccion3_2{
+    width: 100%;
+    tr{
+        width: 100%;
+        td{
+            border:1px solid red;
+            figure{
+                max-width: 50%;
+                background-color: black;
+                text-align: center;
+                border-radius: 50%;
+                img{
+                    width: 90%;
+                }
+            }
+            div{
+                background-color: black;
+                border-radius: 50%;
+            }
+        }
+    }
+} */
+#seccion3_2 {
+  width: 100%;
+  position: relative;
+  height: 18rem;
+  clear: both;
+}
+#seccion3_2 figure {
+  background-color: black;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  padding-top: 10px;
+  clear: both;
+}
+#seccion3_2 figure a {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+#seccion3_2 figure a img {
+  width: 60%;
+  margin: 0;
+  padding: 0;
+}
+#seccion3_2 #instagram {
+  left: 30%;
+}
+#seccion3_2 #twitter {
+  top: 20%;
+  left: 50%;
+}
+#seccion3_2 #facebook {
+  top: 20%;
+  left: 10%;
+}
+#seccion3_2 #youtube {
+  top: 20%;
+  left: 80%;
+}
+#seccion3_2 #tiktok {
+  top: 50%;
+  left: 65%;
+}
+#seccion3_2 #btn_redes {
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  text-align: center;
+  padding-top: 50px;
+  top: 30%;
+  left: 15%;
+  clear: both;
+}
+#seccion3_2 #btn_redes p {
+  font-size: 1rem;
+  text-decoration: underline;
+  text-align: center;
+  padding: 1em;
+  background-color: black;
+  border-radius: 200px;
+}
+
+#seccion4 {
+  width: 100%;
+}
+#seccion4 tr {
+  width: 100%;
+}
+#seccion4 tr td a {
+  color: black;
+  text-decoration: underline;
+}
+
+#seccion5 {
+  width: 100%;
+  background-color: black;
+}
+#seccion5 tr {
+  width: 100%;
+}
+#seccion5 tr td {
+  width: 100%;
+}
+#seccion5 tr td p {
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+@media screen and (max-width: 1200px) {
+  #contenedorPrincipal {
+    width: 60% !important;
+  }
+}
+@media screen and (max-width: 800px) {
+  #contenedorPrincipal {
+    width: 80% !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  #contenedorPrincipal {
+    width: 90% !important;
+  }
+  #contenedor1, #contenedor2, #contenedor3, #contenedor4 {
+    width: 95% !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  #contenedorPrincipal {
+    width: 100% !important;
+  }
+  #contenedor1, #contenedor2, #contenedor3, #contenedor4 {
+    width: 95% !important;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
+
+    </style>
+</head>
+
+<body>
+    <!-- Contenedor principal -->
+    <center style="width: 100%;">
+        <!-- Contenedor secundario -->
+        <center style="width:40%;" id="contenedorPrincipal">
+            <!-- Primera seccion CONTENIDO -->
+            <center id="contenedor1" style="background-color: black;">
+                <table style="max-width: 80%;" align="center" id="seccion1">
+                    <tr>
+                        <td align="center" style="padding: 1em;">
+                            <p>¡Hola, Sutanito Pérez!</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <img src="https://d264cyn7r8lb4o.cloudfront.net/mail/bienvenida/assets/img1.png" alt="img1"
+                                width="100%">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" style="padding: 1em;">
+                            <h1>¡Gracias por ser parte del
+                                equipo 10bet México!
+                            </h1>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left" style="padding: 1em;">
+                            <!-- Aqui puedes agregar las etiquetas y contenido que sea necesario -->
+                            <p>(E-mails body)</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 1em;">
+                            <p style="font-size: .8rem;">Si tienes alguna pregunta o consulta, no dudes en contactar al
+                                equipo de soporte en línea de
+                                10bet México disponible de lunes a domingo de las 7 am a medianoche, por cualquiera de
+                                nuestros canales disponibles:
+                            </p>
+                            <ul>
+                                <li>Chat: Soporte en Línea</li>
+                                <li>Teléfono Gratuito (México):</li>
+                                <li>Correo Electrónico: soporte@10bet.mx</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </center>
+            <!-- Segunda seccion METODOS DE PAGO -->
+            <center id="contenedor2">
+                <table id="seccion2">
+                    <tr>
+                        <td align="center">
+                            <img src="https://d264cyn7r8lb4o.cloudfront.net/mail/bienvenida/assets/pagos.png"
+                                alt="pagos" width="100%">
+                        </td>
+                    </tr>
+                </table>
+            </center>
+            <!-- Tercer seccion REDES SOCIALES -->
+            <center id="contenedor3">
+                <table id="seccion3_1">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img src="https://d264cyn7r8lb4o.cloudfront.net/mail/bienvenida/assets/redes.png"
+                                    alt="redes" width="100%">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <section id="seccion3_2">
+                    <figure id="instagram">
+                        <a href="#">
+                            <img src="https://d264cyn7r8lb4o.cloudfront.net/mail/bienvenida/assets/instagram.png"
+                                alt="instagram">
+                        </a>
+                    </figure>
+                    <figure id="facebook">
+                        <a href="#">
+                            <img src="https://d264cyn7r8lb4o.cloudfront.net/mail/bienvenida/assets/facebook.png"
+                                alt="facebook">
+                        </a>
+                    </figure>
+                    <figure id="twitter">
+                        <a href="#">
+                            <img src="https://d264cyn7r8lb4o.cloudfront.net/mail/bienvenida/assets/twitter.png"
+                                alt="twitter">
+                        </a>
+                    </figure>
+                    <figure id="youtube">
+                        <a href="#">
+                            <img src="https://d264cyn7r8lb4o.cloudfront.net/mail/bienvenida/assets/youtube.png"
+                                alt="youtube">
+                        </a>
+                    </figure>
+                    <figure id="tiktok">
+                        <a href="#">
+                            <img src="https://d264cyn7r8lb4o.cloudfront.net/mail/bienvenida/assets/tiktok.png"
+                                alt="tiktok">
+                        </a>
+                    </figure>
+                    <div id="btn_redes">
+                        <p>SÍGUENOS EN NUESTRAS REDES SOCIALES</p>
+                    </div>
+                </section>
+            </center>
+            <!-- Cuarta seccion FOOTER -->
+            <center id="contenedor4">
+                <table id="seccion4">
+                    <tr>
+                        <td style="width: 50%;padding: .2em 1em;border-right: 1px solid black;" align="right">
+                            <a href="#">¿Contraseña Olvidada?</a>
+                        </td>
+                        <td style="width: 50%;padding: .2em 1em;" align="left">
+                            <a href="#">Términos & Condiciones</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center" style="padding: 1em;">
+                            <img src="https://d264cyn7r8lb4o.cloudfront.net/mail/bienvenida/assets/segob.png"
+                                alt="segob" width="40%">
+                        </td>
+                    </tr>
+                </table>
+            </center>
+            <!-- Quinta seccion Permiso -->
+            <center id="contenedor5">
+                <table id="seccion5">
+                    <tr>
+                        <td style="padding: 1em 2em;">
+                            <p>PERMISO SEGOB DGG/SP/404/97. DIVIÉRTETE RESPONSABLEMENTE.LOS JUEGOS CON APUESTA ESTÁN
+                                PROHIBIDOS PARA MENORES DE EDAD.APLICAN TÉRMINOS Y CONDICIONES.
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </center>
+        </center>
+    </center>
+</body>
+
+</html>

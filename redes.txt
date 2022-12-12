@@ -1,0 +1,69 @@
+<!--                 <table id="seccion3_2">
+                    <tbody>
+                        <tr>
+                            <td align="center" width="40%"></td>
+                            <td align="center">
+                                <figure style="padding: .8em;">
+                                    <a href="#">
+                                        <img src="https://d264cyn7r8lb4o.cloudfront.net/mail/bienvenida/assets/instagram.png"
+                                            alt="instagram">
+                                    </a>
+                                </figure>
+                            </td>
+                            <td align="left" style="padding-bottom: 0rem;">
+                                <div style="width:50px;height: 50px;"></div>
+                            </td>
+                            <td align="center">
+                                <div style="width:80px;height: 80px;"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center" width="10%">
+                                <figure style="padding: .8em;">
+                                    <a href="#">
+                                        <img src="https://d264cyn7r8lb4o.cloudfront.net/mail/bienvenida/assets/facebook.png"
+                                            alt="facebook">
+                                    </a>
+                                </figure>
+                            </td>
+                            <td align="center">
+                                <div style="width:100px;height: 100px;"></div>
+                            </td>
+                            <td align="center">
+                                <figure style="padding: .8em;">
+                                    <a href="#">
+                                        <img src="https://d264cyn7r8lb4o.cloudfront.net/mail/bienvenida/assets/twitter.png"
+                                            alt="twitter">
+                                    </a>
+                                </figure>
+                            </td>
+                            <td align="center">
+                                <figure style="padding: 1em;">
+                                    <a href="#">
+                                        <img src="https://d264cyn7r8lb4o.cloudfront.net/mail/bienvenida/assets/youtube.png"
+                                            alt="youtube">
+                                    </a>
+                                </figure>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center">
+                                <div style="width:80px;height: 80px;"></div>
+                            </td>
+                            <td align="center">
+                                <div style="width:80px;height: 80px;"></div>
+                            </td>
+                            <td align="center">
+                                <figure style="padding: .8em;">
+                                    <a href="#">
+                                        <img src="https://d264cyn7r8lb4o.cloudfront.net/mail/bienvenida/assets/tiktok.png"
+                                            alt="tiktok">
+                                    </a>
+                                </figure>
+                            </td>
+                            <td align="center">
+                                <div style="width:80px;height: 80px;"></div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table> -->
